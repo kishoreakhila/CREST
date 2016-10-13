@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.preethi.android.crustappandroid.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/welcome_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Welcome to VTA Select the Bus No"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/bus1_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green"
+        android:text="Bus No 73 - San jose"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:onClick="bus1Action"/>
+    <Button
+        android:id="@+id/bus2_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green"
+        android:text="Bus No 323 - Fremont"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:onClick="bus2Action"/>
+
+    <Button
+        android:id="@+id/bus1_button1"
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_green"
+        android:text="Bus No 66 Great Mall"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:onClick="bus3Action"/>
+
+</LinearLayout>
